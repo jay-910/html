@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Date Tag</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+        }
+
+        .date-tag {
+            display: inline-block;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .date-tag .month {
+            background: #FF6F61;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 8px 0;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .date-tag .day {
+            color: #333;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0;
+            padding: 15px 0;
+        }
+
+        .date-tag .year {
+            background: #EAEAEA;
+            text-align: center;
+            color: #555;
+            font-size: 0.9rem;
+            padding: 5px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="date-tag">
+        <div class="month">Dec</div>
+        <div class="day">30</div>
+        <div class="year">2024</div>
+    </div>
+</body>
+</html>
+
